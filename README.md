@@ -76,29 +76,6 @@ void yyerror(const char *s) {
     printf("Lexical error at token: %s\n", yytext);  // Debugging output
 }
 
-
-
-
-
-Command to execute:
-
-C:\GnuWin32\bin>bison -d ex4.y
-
-C:\GnuWin32\bin>flex ex4.l
-
-C:\GnuWin32\bin>gcc ex4.tab.c lex.yy.c  -o ex4.exe
-
-C:\GnuWin32\bin>ex4.exe
-Enter declaration (e.g., int a,b):
-int a,b
-Identifier: a
-Identifier: b
-
-Valid Declaration
-
-```
-
-
 ```
 
 ## Output
